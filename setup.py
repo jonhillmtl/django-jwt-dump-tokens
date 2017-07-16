@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup(name='django_jwt_dump_tokens',
       version='0.1',
-      description='Dumps JSON Web Tokens for your userbase',
+      description='Dumps JSON Web Tokens for your Django User models.',
       author='Jon Hill',
       author_email='jon@jonhill.ca',
       url='https://github.com/jonhillmtl/django-jwt-dump-tokens',
