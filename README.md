@@ -24,6 +24,8 @@ Options:
   --order_by=ORDER_BY   specify sort order [id, email, username]
   --sort_direction=SORT_DIRECTION
                         specify sort direction [asc, desc]
+  --as_json             output as json
+
 ```
 
 
