@@ -77,7 +77,7 @@ def main():
             print(colored("Your settings file has an error: {}".format(e), "red"))
             quit()
             
-        from django_jwt_auth.utils import user_to_dictionary, user_dictionary_to_jwt
+        from django_jwt_utils import user_to_dictionary, user_dictionary_to_jwt
         from django.contrib.auth.models import User
 
         if options.user_ids is None and options.user_emails is None:

@@ -15,6 +15,7 @@ setup(name='django_jwt_dump_tokens',
       packages=['django_jwt_dump_tokens'],
       install_requires=['jwcrypto', 'termcolor', 'django'],
       dependency_links=[
-          "git+https://github.com/jonhillmtl/django-jwt-auth"
+          'git+https://github.com/jonhillmtl/django-jwt-utils',
+          'git+https://github.com/jonhillmtl/django-key-gen'
       ]
 )
