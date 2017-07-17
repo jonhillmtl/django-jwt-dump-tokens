@@ -108,6 +108,7 @@ def main():
         else:
             print(colored("Using default sort order, order_by specified improperly: \"{}\"\n"
                           .format(options.order_by), "yellow"))
+            users = sorted(users, key=operator.attrgetter('id'))
         
         if options.sort_direction.lower() in ['asc', 'desc']:
             if options.sort_direction.lower() == 'desc':
